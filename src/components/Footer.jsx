@@ -115,7 +115,7 @@ export const Footer = () => {
             </MDBContainer>
           </section>
     
-          <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+          <div className='text-center p-4' style={{ backgroundColor: '#CA1016' , color: '#ffff' }}>
             © 2021 Copyright:
             <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
               MDBootstrap.com

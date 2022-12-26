@@ -88,7 +88,7 @@ export const Admin = (props) => {
                       ) }) }
                   </tbody>
               </Table>
-              {openModal && <Modal closeModal = {setModal} />}
+              {openModal && <Modal closeModal = {setModal} id = {id} />}
           </div>
           :
           <form className='col-lg-3 col-md-6 col-12 mx-auto mt-5'>

@@ -3,12 +3,12 @@ import React from 'react'
 
 export const HomePage = () => {
   return (
-    <div className="container">
+    <div className="container my-5">
         <Carousel>
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src='https://www.comingsoon.net/wp-content/uploads/sites/3/2022/06/Baby-Groot.jpeg'
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ export const HomePage = () => {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src="http://4kwallpapers.com/images/walls/thumbs_2t/8536.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -30,7 +30,7 @@ export const HomePage = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src="https://images.alphacoders.com/126/1267372.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
